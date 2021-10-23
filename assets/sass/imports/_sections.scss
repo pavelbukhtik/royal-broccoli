@@ -246,16 +246,16 @@
 }
 
 @media only screen and (min-width: 901px) {
-//   .pricing-block,
-//   .reviews-block {
-//     .cell:first-child:nth-last-child(3),
-//     .cell:first-child:nth-last-child(3) ~ .cell {
-//       -ms-flex: 0 0 33.333%;
-//       flex: 0 0 33.333%;
-//       max-width: 33.333%;
-//     }
-//   }
-// }
+  .pricing-block,
+  .reviews-block {
+    .cell:first-child:nth-last-child(3),
+    .cell:first-child:nth-last-child(3) ~ .cell {
+      -ms-flex: 0 0 33.333%;
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
+}
 
 .plan {
   .card {
