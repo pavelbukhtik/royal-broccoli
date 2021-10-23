@@ -67,21 +67,21 @@
   }
 }
 
-// .hero-block,
-// .text-block,
-// .features-block,
-// .cta-block {
-// //   .grid {
-// //     -ms-flex-align: center;
-// //     align-items: center;
-// //     -ms-flex-pack: center;
-// //     justify-content: center;
-// //   }
+.hero-block,
+.text-block,
+.features-block,
+.cta-block {
+  .grid {
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
 
-// //   .cell {
-// //     text-align: center;
-// //   }
-// }
+  .cell {
+    text-align: center;
+  }
+}
 
 @media only screen and (min-width: 801px) {
   .hero-block,
