@@ -559,11 +559,11 @@
   &.bg-white {
     background: #fff;
 
-    // .card,
-    // .handorgel__header,
-    // .handorgel__content-inner {
-    //   box-shadow: $box-shadow-white-bg;
-    // }
+    .card,
+    .handorgel__header,
+    .handorgel__content-inner {
+      box-shadow: $box-shadow-white-bg;
+    }
   }
 
   &.bg-accent {
