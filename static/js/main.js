@@ -23,3 +23,10 @@ window.addEventListener('resize', function () {
   }
 }, true);
 
+// Accordion
+var faqAccordions = document.querySelectorAll('.handorgel');
+Array.from(faqAccordions).forEach((faqAccordion) => {
+  var accordion = new handorgel(faqAccordion, {
+    multiSelectable: true
+  });
+});
