@@ -431,36 +431,36 @@
 
 // Posts block
 @media only screen and (min-width: 601px) and (max-width: 900px) {
-  .posts-block {
-    .cell {
-      -ms-flex: 0 0 100%;
-      flex: 0 0 100%;
-      max-width: 100%;
-    }
+//   .posts-block {
+//     .cell {
+//       -ms-flex: 0 0 100%;
+//       flex: 0 0 100%;
+//       max-width: 100%;
+//     }
 
-    .card {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-direction: row-reverse;
-      flex-direction: row-reverse;
-    }
+//     .card {
+//       display: -ms-flexbox;
+//       display: flex;
+//       -ms-flex-direction: row-reverse;
+//       flex-direction: row-reverse;
+//     }
 
-    .post-thumbnail {
-      -ms-flex: 0 0 40%;
-      flex: 0 0 40%;
-      max-width: 40%;
-    }
+//     .post-thumbnail {
+//       -ms-flex: 0 0 40%;
+//       flex: 0 0 40%;
+//       max-width: 40%;
+//     }
 
-    .post-thumbnail,
-    .post-thumbnail img {
-      border-radius: 0 $border-radius $border-radius 0;
-    }
+//     .post-thumbnail,
+//     .post-thumbnail img {
+//       border-radius: 0 $border-radius $border-radius 0;
+//     }
 
-    .post-body {
-      -ms-flex-positive: 1;
-      flex-grow: 1;
-    }
-  }
+//     .post-body {
+//       -ms-flex-positive: 1;
+//       flex-grow: 1;
+//     }
+//   }
 }
 
 // Faq section
