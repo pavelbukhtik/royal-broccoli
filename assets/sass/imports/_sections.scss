@@ -530,13 +530,13 @@
   padding: 1.125em 0.9375em;
 }
 
-.handorgel__header--open.handorgel__header--opened {
-  border-radius: $border-radius $border-radius 0 0;
+// .handorgel__header--open.handorgel__header--opened {
+//   border-radius: $border-radius $border-radius 0 0;
 
-  .icon-plus:after {
-    display: none;
-  }
-}
+//   .icon-plus:after {
+//     display: none;
+//   }
+// }
 
 .handorgel__content--open {
   display: block;
